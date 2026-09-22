@@ -1,0 +1,603 @@
+This README.txt file was generated on 2026-09-16 by Frank Li
+
+## PLEASE NOTE: Help text is preceded by ## and should be deleted before saving this file!
+## This is a template, and you are free to modify it. Please remove any sections or items that are not applicable to your dataset. Please add additional information not currently represented in the template that is needed to correctly interpret or reuse your data.  
+
+--------------------
+GENERAL INFORMATION
+--------------------
+
+1. Title of Dataset: 
+
+2. Author Information
+	A. Principal Investigator Contact Information
+		Name: Nathalie Tufenkji
+		Institution:  McGill University
+		Email: nathalie.tufenkji@mcgill.ca
+
+	B. Associate or Co-investigator Contact Information
+		Name: Frank Li
+		Institution:  University of Toronto
+		Email: lifrank1999@gmail.com
+
+
+3. Date of data collection (single date, range, approximate date): 
+
+2024-06 to 2025-07
+
+4. Geographic location of data collection: 
+Montréal, Québec, Canada
+
+5. Information about funding sources that supported the collection of the data: 
+
+Natural Sciences and Engineering Research Council of Canada (NSERC) through its Pollution in Urban Environments Collaborative Research and Training Experience (PURE CREATE) program [528220-2019] and Discovery program [RGPAS-2019-00117 and RGPIN-2019-04519], Health Canada [2324-HQ-000074], Fonds de Recherche Nature et technologies du Québec [328469], Canada Research Chairs [CRC-2022-00274], Canada Foundation for Innovation [217263, 36368, 40070, 43152], Concordia University Research Chair Program, and McGill University through the McGill Engineering Eugenie Ulmer Lamothe Scholarship.
+
+---------------------------
+SHARING/ACCESS INFORMATION
+---------------------------
+
+1. Licenses/restrictions placed on the data: 
+
+ These data are available under a CC BY 4.0 license <https://creativecommons.org/licenses/by/4.0/> 
+
+---------------------
+DATA & FILE OVERVIEW
+---------------------
+
+1. File List
+
+## list all files (or folders, as appropriate for dataset organization) contained in the dataset, with a brief description
+
+A. Filename:
+/Table 1/NMR Se-PS conversion.xlsx
+Short description:  
+1- Conversion of styrene and Se-M during polymerization calculated by taking the integral of the peak at 5.91 ppm on the spectra at 0 and 20h  (1-t20/t0), green is calculations used in the manuscript
+2- Actual Se-to-polymer ratio calculated in Se-PS NMR sheet under "real %Se" column, average in "Average real %Se" column
+
+B. Filename:
+/Table 1/XPS data.xlsx
+Short description:  
+1. Raw atomic ratios from XPS under yellow highlight in Table 1 XPS tab
+2. Average was taken, and normalized without O element
+3. Convert to weight % with molecular weight of elements
+4. Average values for Se% and standard deviation
+
+C. Filename:
+/Table 2/Table 2 (DLS and DLS+NTA).xlsx
+Short description:  
+This excel workbook provides Se-PS-NPs data analysis for DLS
+1- Raw size data are included in "0.25 size, 0.7 size, 2.7 size"
+2-Concentrations data are included in "0.25 conc, 0.7 conc, 2.3 conc" with plot which includes NTA and DLS data for Figure S8c
+"Summary" provides the plot for Figure S8b
+
+
+D. Filename:
+/Table 2/Table 2 (NTA).xlsx
+Short description:  
+This Excel file is for the NTA Se-PS-NPs analysis
+Raw data from the NTA are summarized in 0R1, 0R2,… 8.7R1
+Adjusted concentrations to 1.6e8 NPs/ml and plotting for Figure 3a are in "Fig3a for sp-ICP-MS plot"
+FigS8a for the unprocessed concentrations of Se-PS-NPs after sequenetial centrifugation are in "Fig S8a"
+Concentrations raw data,  average and stdev are in "For sp-ICP-MS (table 2)"
+
+
+E. Filename:
+/Table 2/Table 2 (sp-ICP-MS).xlsx
+Short description:  
+This is the excel sheet for the sp-ICP-MS data analysis
+1- Weighted Se polystyrene average is provided in the "Density" sheet
+2- Raw sp-ICP-MS data are provided in the "0.25, 0.7, 2.7" sheets with size average calculation
+3- For plotting Figure 3b, size data were regrouped in "For Histo",  the individual histograms are provided in "0.25H, 0.7H, 2.7H", and the combined version in "combined His"
+ 
+F. Filename:
+/Manuscript figures_and_Figure 1.pptx
+Short description:  
+Design and polishing of Figure 1-4
+
+G. Filename:
+/Supplementary figures - part 1.pptx
+Short description: 
+Design and polishing of Figure S1-S7
+
+H. Filename:
+/Supplementary figures - part 2.pptx
+Short description:  
+Design and polishing of Figure S8-S14
+
+I. Filename:
+Graphical Abstract.pptx
+Short description:  
+Design and polishing of Graphical Abstract
+
+J. Filename:
+/Figure 2/Figure 2a (NMR Se-M).xlsx
+Short description:  
+H-NMR data for purified p-phenylselenomethylstyrene (Se-M)
+1. Plotting for Figure 2a located in "Figure 2a(NMR Se-M)"
+2. Direct plotting, no processing.
+
+K. Filename:
+/Figure 2/Figure 2b (NMR Se-PS).xlsx
+Short description:  
+H-NMR data for purified bulk Se-PS
+1. "0.5 ww", "1 ww", "3 ww" sheets to normalize to highest peak H-NMR spectra and average them between replicates for plotting. Raw data are shown on the left side columns, averaged plots are shown for Figure 2b
+2. "For plotting" sheet adds gaps (+1, +2…) for easier viewing in the plot (Figure S2)
+
+L. Filename:
+/Figure 2/Figure 2c (Se_M OPTIR).xlsx
+Short description:  
+O-PTIR raw data for Se-M and processing
+1. Se-M raw data in "Se_M", 10 point analysis
+2. Normalized to highest peak (993 cm-1) in "Normalized" sheet
+3. Take average of the normalized 10 spectra in "Plot"
+Plot is for Figure 2c
+
+M. Filename:
+/Figure 2/Figure 2d,S3-S5 (Se-PS OPTIR).xlsx
+Short description:  
+O-PTIR raw data for Se-PS and processing
+Raw data located as "Xpct_raw" sheets
+1. "Fully separated" sheets are for plotting normalized to 1453 cm-1 spectra for various ratios
+2. "Shoulders" put emphasis on 1491 cm-1 as small shoudlers appears on each side of this peak from Se-M
+Figure 2d are located in "All"
+Figure S3, S4 and S5 a) are located in "Fully separated 0.5%, 1% and 3%, b) are in "shoulders"
+
+N. Filename:
+/Figure 3/Figure 3a (NTA).xlsx
+Short description:  
+This Excel file is for the NTA Se-PS-NPs analysis
+Raw data from the NTA are summarized in sheets 0R1, 0R2,… 8.7R1
+Normalized concentrations to 1.6e8 NPs/ml and plotting for Figure 3a are in "Fig3a for ICP-MS plot"
+FigS8a for the unprocessed concentrations of Se-PS-NPs after sequenetial centrifugation are in "Fig S8a"
+
+
+O. Filename:
+/Figure 3/Figure 3b (sp-ICP-MS histogram).xlsx
+Short description:  
+1- Weighted Se polystyrene average is provided in the "Density" sheet
+2- Raw sp-ICP-MS data are provided in the "0.25, 0.7, 2.7" sheets with size average calculation
+3- For plotting Figure 3b, size data were regrouped in "For Histo",  the individual histograms are provided in "0.25H, 0.7H, 2.7H", and the combined version in "combined His"
+This is a duplicate of Table 2 (sp-ICP-MS)
+
+P. Filename:
+/Figure 3/Figure 3c/0.25_37807x_spot3.tif
+Short description: 
+Raw figure for 0.25% w/w Se-PS-NPs under scanning electron microscopy (SEM)
+
+Q. Filename:
+/Figure 3/Figure 3c/0.25_37807x_spot3_scale2.jpg
+Short description: 
+Processed figure for 0.25% w/w Se-PS-NPs under SEM. Added scale bar.
+
+R. Filename:
+/Figure 3/Figure 3c/0.7_37807x_spot3.tif
+Short description: 
+Raw figure for 0.7% w/w Se-PS-NPs under SEM
+
+S. Filename:
+/Figure 3/Figure 3c/0.7_37807x_spot3_scale.jpg
+Short description: 
+Processed figure for 0.7% w/w Se-PS-NPs under SEM. Added scale bar.
+
+T. Filename:
+/Figure 3/Figure 3c/2.7_37807x_spot3.tif
+Short description: 
+Raw figure for 2.7% w/w Se-PS-NPs under SEM
+
+U. Filename:
+/Figure 3/Figure 3c/2.7_37807x_spot3_scale.jpg
+Short description:
+Processed figure for 2.7% w/w Se-PS-NPs under SEM. Added scale bar.
+
+
+V. Filename:
+/Figure 3/Figure 3c/READ ME.txt
+Short description:
+Additional details for the batch of pictures.
+
+W. Filename:
+/Figure 3/Figure 3d (EDS spectra).xlsx
+Short description:
+Energy dispersive spectroscopy on Se-PS-NPs under SEM-EDS
+Use quick scan feature with point analysis on TEAM
+1. Extract .csv files from Team (software on FE-ESEM)
+2. Take the average of the 5 points
+3. Plot average intensity vs voltage (keV)
+4. Assign Peaks to corresponding elements
+Plots are for Figure 3d in manuscript
+
+X. Filename:
+/Figure 4/Raw ToF-SIMS images for Figure 4.pptx
+Short description:
+For Figure 5 and Figure S10-S12 defg
+10 ppm c-Se-PS-MNPs
+1 ppm c-Se-PS-MNPs
+0.1 ppm C-Se-PS-MNPs
+1 ppm Se-PS-NPs
+0.1 ppm Se-PS-NPs
+All maps brightness and contrast were adjusted to enhance the brightest spots using the Picture format  Corrections option on Power Point, more correction were done on the Manuscript figures slides
+
+Y. Filename:
+/Figure 4/Figure 4-10 ppm Se-PS-MNPs/Figure 4c.tif
+Short description:
+Raw 10x OPTIR microscope image of 10 ppm Se-PS-MNPs for Figure 4c
+
+Z. Filename:
+/Figure 4/Figure 4-10 ppm Se-PS-MNPs/Figure 4c_scale.jpg
+Short description:
+Processed 10x OPTIR microscope image of 10 ppm Se-PS-MNPs for Figure 4c with added scale
+
+AA. Filename:
+/Figure 4/Figure 4-10 ppm Se-PS-MNPs/Figure 4d_raw.tif
+Short description:
+Raw OPTIR map of 10 ppm Se-PS-MNPs for Figure 4d
+
+AB. Filename:
+/Figure 4/Figure 4-10 ppm Se-PS-MNPs/Figure 4d_scale.png
+Short description:
+Raw OPTIR map of 10 ppm Se-PS-MNPs for Figure 4d with added scale
+
+AC. Filename:
+/Figure 4/Figure 4gh_raw.tif
+Short description:
+Raw 10x OPTIR microscope image and map of 1 ppm Se-PS-MNPs for Figure 4gh
+
+AD. Filename:
+/Figure 4/Figure 4kl_raw.tif
+Short description:
+Raw 10x OPTIR microscope image and map of 0.1 ppm Se-PS-MNPs for Figure 4kl
+
+AE. Filename:
+/Figure 4/Figure 4op_raw.tif
+Short description:
+Raw 10x OPTIR microscope image and map of 1 ppm Se-PS-MNPs for Figure 4op
+
+AF. Filename:
+/Figure 4/Figure 4st_raw.tif
+Short description:
+Raw 10x OPTIR microscope image and map of 0.1 ppm Se-PS-MNPs for Figure 4st
+
+AG. Filename:
+/Figure S1/Se-M_RecrysStages (S1 abcd).xlsx
+Short description:
+1- "Se-M_eth1x" contains raw 1H-NMR data for the first ethanol recrystallization
+2- "Se-M_eth1x, met1x" contains raw 1H-NMR data for after first methanol recrystallization
+Direct raw plotting.
+
+AH. Filename:
+/Figure S2/Figure S2ab (NMR Se-PS).xlsx
+Short description:
+H-NMR raw and processed data for Se-PS.
+1. "0.5 ww", "1 ww", "3 ww" sheets to normalize to highest peak H-NMR spectra and average them between replicates for plotting. Raw data are shown on the left side columns, averaged plots are shown for Figure 2b
+2. "For plotting" sheet adds gaps (+1, +2…) for easier viewing in the plot (Figure S2)
+
+AI. Filename:
+/Figure S3-S5c (OPTIR)/Figure S3c_0.25pct_polymer_R1.png
+Short description:
+Raw microscope image at 10x for 0.25% sample 1 R1 with O-PTIR analysis location indicated with red "+"
+
+AJ. Filename:
+/Figure S3-S5c (OPTIR)/Figure S3c_0.25pct_polymer_R2.png
+Short description:
+Raw microscope image at 10x for 0.25% sample 2 R2 with O-PTIR analysis location indicated with red "+"
+
+AK. Filename:
+/Figure S3-S5c (OPTIR)/Figure S3c_0.25pct_polymer_R3.png
+Short description:
+Raw microscope image at 10x for 0.25% sample 3 R3 with O-PTIR analysis location indicated with red "+"
+
+AL. Filename:
+/Figure S3-S5c (OPTIR)/Figure S4c_0.7pct_polymer_R1.png
+Short description:
+Raw microscope image at 10x for 0.7% sample 1 R1 with O-PTIR analysis location indicated with red "+"
+
+AM. Filename:
+/Figure S3-S5c (OPTIR)/Figure S4c_0.7pct_polymer_R2.png
+Short description:
+Raw microscope image at 10x for 0.7% sample 2 R2 with O-PTIR analysis location indicated with red "+"
+
+AN. Filename:
+/Figure S3-S5c (OPTIR)/Figure S4c_0.7pct_polymer_R3.png
+Short description:
+Raw microscope image at 10x for 0.7% sample 3 R3 with O-PTIR analysis location indicated with red "+"
+
+AO. Filename:
+/Figure S3-S5c (OPTIR)/Figure S5c_2.7pct_polymer_R1.png
+Short description:
+Raw microscope image at 10x for 2.7% sample 1 R1 with O-PTIR analysis location indicated with red "+"
+
+AP. Filename:
+/Figure S3-S5c (OPTIR)/Figure S5c_2.7pct_polymer_R2.png
+Short description:
+Raw microscope image at 10x for 2.7% sample 2 R2 with O-PTIR analysis location indicated with red "+"
+
+AQ. Filename:
+/Figure S3-S5c (OPTIR)/Figure S5c_2.7pct_polymer_R3.png
+Short description:
+Raw microscope image at 10x for 2.7% sample 3 R3 with O-PTIR analysis location indicated with red "+"
+
+AR. Filename:
+/Figure S6/Figure S6 abcd.xlsx
+Short description:
+This Excel workbook provides DLS analysis for c-Se-PS-MNPs
+1- Figure S6a is in "0.25" sheet,
+2- Figure S6b is in "0.7"
+3- Figure S6c is in "2.7"
+4- Figure S6d uses values across 0.25, 0.7 and 2.7 worksheets
+Direct plotting
+
+AS. Filename:
+/Figure S7/0.25pct/0.25_145x.tif
+Short description:
+Raw SEM image of 0.25% Se-PS-MNPs at 145x magnification
+
+AT. Filename:
+/Figure S7/0.25pct/0.25_145x_scale.jpg
+Short description:
+Processed SEM image of 0.25% Se-PS-MNPs at 145x magnification with added scale
+
+AU. Filename:
+/Figure S7/0.25pct/0.25_3974x.tif
+Short description:
+Raw SEM image of 0.25% Se-PS-MNPs at 3974x magnification
+
+AV. Filename:
+/Figure S7/0.25pct/0.25_3974x_scale.jpg
+Short description:
+Processed SEM image of 0.25% Se-PS-MNPs at 3974x magnification with added scale
+
+AW. Filename:
+/Figure S7/0.25pct/0.25_456x.tif
+Short description:
+Raw SEM image of 0.25% Se-PS-MNPs at 456x magnification
+
+AX. Filename:
+/Figure S7/0.25pct/0.25_456x_scale.jpg
+Short description:
+Processed SEM image of 0.25% Se-PS-MNPs at 456x magnification with added scale
+
+AY. Filename:
+/Figure S7/0.7pct/0.7_145x.tif
+Short description:
+Raw SEM image of 0.7% Se-PS-MNPs at 145x magnification
+
+AZ. Filename:
+/Figure S7/0.7pct/0.7_145x_scale.jpg
+Short description:
+Processed SEM image of 0.7% Se-PS-MNPs at 145x magnification with added scale
+
+BA. Filename:
+/Figure S7/0.7pct/0.7_3974x.tif
+Short description:
+Raw SEM image of 0.7% Se-PS-MNPs at 3974x magnification
+
+BB. Filename:
+/Figure S7/0.7pct/0.7_3974x_scale.jpg
+Short description:
+Processed SEM image of 0.7% Se-PS-MNPs at 3974x magnification with added scale
+
+BC. Filename:
+/Figure S7/0.7pct/0.7_456x.tif
+Short description:
+Raw SEM image of 0.7% Se-PS-MNPs at 456x magnification
+
+BD. Filename:
+/Figure S7/0.7pct/0.7_456x_scale.jpg
+Short description:
+Processed SEM image of 0.7% Se-PS-MNPs at 456x magnification with added scale
+
+BE. Filename:
+/Figure S7/2.7pct/2.7_145x.tif
+Short description:
+Raw SEM image of 2.7% Se-PS-MNPs at 145x magnification
+
+BF. Filename:
+/Figure S7/2.7pct/2.7_145x_scale.jpg
+Short description:
+Processed SEM image of 2.7% Se-PS-MNPs at 145x magnification with added scale
+
+BG. Filename:
+/Figure S7/2.7pct/2.7_3974x.tif
+Short description:
+Raw SEM image of 2.7% Se-PS-MNPs at 3974x magnification
+
+BH. Filename:
+/Figure S7/2.7pct/2.7_3974x_scale.jpg
+Short description:
+Processed SEM image of 2.7% Se-PS-MNPs at 3974x magnification with added scale
+
+BI. Filename:
+/Figure S7/2.7pct/2.7_456x.tif
+Short description:
+Raw SEM image of 2.7% Se-PS-MNPs at 456x magnification
+
+BJ. Filename:
+/Figure S7/2.7pct/2.7_456x_scale.jpg
+Short description:
+Processed SEM image of 2.7% Se-PS-MNPs at 456x magnification with added scale
+
+BK. Filename:
+/Figure S7/README.txt
+Short description:
+Additional details on the raw and processed images.
+
+BL. Filename:
+/Figure S8/Figure S8a (NTA).xlsx
+Short description:
+This Excel file is for the NTA Se-PS-NPs analysis
+Raw data from the NTA are summarized in 0R1, 0R2,… 8.7R1
+Adjusted (normalized) concentrations to 1.6e8 NPs/ml and plotting for Figure 3a are in "Fig3a for ICP-MS plot"
+FigS8a for the unprocessed concentrations of Se-PS-NPs after sequential centrifugation are in "Fig S8a"
+This file is a replicate of Table 2(NTA).
+
+BM. Filename:
+/Figure S8/Figure S8bc (DLS and DLS+NTA).xlsx
+Short description:
+This excel workbook provides Se-PS-NPs data analysis for DLS
+1- Raw size data are included in "0.25 size, 0.7 size, 2.7 size"
+2-Concentrations data are included in "0.25 conc, 0.7 conc, 2.3 conc" with plot which includes NTA and DLS data for Figure S8c
+"Summary" provides the plot for Figure S8b
+This file is a replicate of Table 2 (DLS and DLS+NTA)
+
+BN. Filename:
+/Figure S9/Figure S9 ab Leaching test c-Se-PS-MNPs 10 ppm.xlsx
+Short description:
+This is the Excel sheet for the leaching analysis for c-Se-PS-MNPs 10 ppm in rear water
+1) "Leaching test 10 ppm c-Se" sheet are the measured weights during the 35 days test, dilutions for the ICP-MS are also included
+2) "Concentrations analysis" sheet provide the post ICP-MS calculations Figure S9
+
+
+BQ. Filename:
+/Figure S10-S14/Figure S10ab.tif
+Short description:
+Raw 10x microscope and O-PTIR map images exposure from PTIR studio (O-PTIR) for 10 ppm Se-PS-MNPs D. magna. Includes the crosshairs to indicated location.
+
+BR. Filename:
+/Figure S10-S14/Figure S10c_1-10_C_plotting.xlsx
+Short description:
+OPTIR Point analysis of 0.7% Se-PS-MNPs, 10 ppm D.magna slice
+1- Raw data in "Raw"
+2- "Normalization" to peak 1453 cm-1
+3- "plot" add shifts for clarity
+
+
+BS. Filename:
+/Figure S10-S14/Figure S11ab.tif
+Short description:
+Raw 10x microscope and O-PTIR map images exposure from PTIR studio (O-PTIR) for 1 ppm Se-PS-MNPs D. magna. Includes the crosshairs to indicated location.
+
+BT. Filename:
+/Figure S10-S14/Figure S11c_1-1_C_plotting.xlsx
+Short description:
+OPTIR Point analysis of 0.7% Se-PS-MNPs, 1 ppm D.magna slice
+1- Raw data in "Raw"
+2- "Normalization" to peak 1453 cm-1
+3- "plot" add shifts for clarity
+
+BU. Filename:
+/Figure S10-S14/Figure S12ab.tif
+Short description:
+Raw 10x microscope and O-PTIR map images exposure from PTIR studio (O-PTIR) for 0.1 ppm Se-PS-MNPs D. magna. Includes the crosshairs to indicated location.
+
+BV. Filename:
+/Figure S10-S14/Figure S12c_1-0.1_C_plotting.xlsx
+Short description:
+OPTIR Point analysis of 0.7% Se-PS-MNPs, 0.1 ppm D.magna slice
+1- Raw data in "Raw"
+2- "Normalization" to peak 1453 cm-1
+3- "plot" add shifts for clarity
+
+BW. Filename:
+/Figure S10-S14/Figure S13ab.tif
+Short description:
+Raw 10x microscope and O-PTIR map images exposure from PTIR studio (O-PTIR) for 1 ppm Se-PS-NPs D. magna. Includes the crosshairs to indicated location.
+
+BX. Filename:
+/Figure S10-S14/Figure S13c_1-1_NPs_plotting.xlsx
+Short description:
+OPTIR Point analysis of 0.7% Se-PS-NPs, 1 ppm D.magna slice
+1- Raw data in "Raw"
+2- "Normalization" to peak 1453 cm-1
+3- "plot" add shifts for clarity
+
+BY. Filename:
+/Figure S10-S14/Figure S14ab.tif
+Short description:
+Raw 10x microscope and O-PTIR map images exposure from PTIR studio (O-PTIR) for 0.1 ppm Se-PS-NPs D. magna. Includes the crosshairs to indicated location.
+
+BZ. Filename:
+/Figure S10-S14/Figure S14c_1-0.1_NPs_plotting.xlsx
+Short description:
+OPTIR Point analysis of 0.7% Se-PS-NPs, 0.1 ppm D.magna slice
+1- Raw data in "Raw"
+2- "Normalization" to peak 1453 cm-1
+3- "plot" add shifts for clarity
+
+CA. Filename:
+/Figure S10-S14/Raw Tof-SIMS for S10-S14.pptx
+Short description:
+For Figure 4 and Figure S10-S12 defg
+10 ppm c-Se-PS-MNPs
+1 ppm c-Se-PS-MNPs
+0.1 ppm C-Se-PS-MNPs
+1 ppm Se-PS-NPs
+0.1 ppm Se-PS-NPs
+All maps brightness and contrast were adjusted to enhance the brightest spots using the Picture format  Corrections option on Power Point
+This file is a replicate of Raw ToF-SIMS images for Figure 4
+
+CB. Filename:
+/Additional information not in figures or tables/ImageJ_SizeAnalysis_c-Se-PS-MNPs.xlsx
+Short description:
+1- This excel sheet is to calculate the average size of c-Se-PS-MNPS with SEM image at 145x, assuming each data is the size of a circle (i.e. particle)
+2. Image J settings are provided in each sheet "0.25% ww 145x", "0.7% ww 145x","2.7% ww 145x""
+3- 145x is the magnification
+
+
+2. Additional related data collected that was not included in the current data package: N/A
+
+
+
+---------------------------
+METHODOLOGICAL INFORMATION
+---------------------------
+
+1. Description of methods used for collection/generation of data: 
+
+## Please consider including a brief description of the methods you used to collect or generate your data. You may also include links to publications or other documentation that contain experimental design or protocols used in data collection
+
+
+2. Methods for processing the data: 
+
+## Describe how the submitted data were generated from the raw or collected data
+
+
+3. Instrument- or software-specific information needed to interpret the data: 
+
+## Include full name and version of instruments or software used to generate your data, and any necessary packages or libraries needed to run scripts
+
+
+4. Standards and calibration information, if appropriate: 
+
+5. Environmental/experimental conditions: 
+
+6. Describe any quality-assurance procedures performed on the data: 
+
+7. People involved with sample collection, processing, analysis and/or submission: 
+
+
+-----------------------------------------------------------------
+DATA-SPECIFIC INFORMATION FOR: ## ADD FILENAME or DIRECTORY NAME
+-----------------------------------------------------------------
+
+## Create sections for each directory, dataset or data type included, as appropriate. Alternatively, you may choose to upload a separate codebook.  
+
+1. Number of variables:
+
+2. Number of cases/rows:
+
+3. Missing data codes:
+        Code/symbol        Definition
+        Code/symbol        Definition
+
+4. Variable List:
+
+   ## Example. Name: Gender
+           ##  Description: Gender of respondent
+           ##  Include value label or units of measure if appropriate      
+		 ##   1 = Male
+                 ##   2 = Female
+                 ##   3 = Other               
+
+    A. Name: 
+       Description: 
+
+    B. Name: 
+       Description: 
+
+    C. Name: 
+       Description: 
+
+    D. Name: 
+       Description:
+
+All raw figures and data are included in the folders above. Raw data are all included in the Excel sheets in most cases, but the finalized figures are all in the "Figures design" folder with pptx files file. All figure assembling and polishing are done in the pptx.
